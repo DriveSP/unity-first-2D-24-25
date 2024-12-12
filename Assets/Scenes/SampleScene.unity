@@ -11942,10 +11942,6 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 226466827}
-    - target: {fileID: 1774373112110196403, guid: cba0f87b08d655a4993e32b24d498d2b, type: 3}
-      propertyPath: ToxicArea
-      value: 
-      objectReference: {fileID: 248195346127487389}
     - target: {fileID: 4227307048293196948, guid: cba0f87b08d655a4993e32b24d498d2b, type: 3}
       propertyPath: m_Name
       value: Death
@@ -11956,7 +11952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8636563346488724124, guid: cba0f87b08d655a4993e32b24d498d2b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.71
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8636563346488724124, guid: cba0f87b08d655a4993e32b24d498d2b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11995,11 +11991,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cba0f87b08d655a4993e32b24d498d2b, type: 3}
---- !u!1 &248195346127487389 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3928934747740806860, guid: cba0f87b08d655a4993e32b24d498d2b, type: 3}
-  m_PrefabInstance: {fileID: 248195346127487388}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

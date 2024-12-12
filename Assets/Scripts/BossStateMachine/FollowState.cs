@@ -5,6 +5,7 @@ using UnityEngine;
 public class FollowState : State
 {
     public FollowState(BossController boss) : base(boss) { }
+    
 
     public override void Entry()
     {
@@ -21,7 +22,8 @@ public class FollowState : State
 
     IEnumerator Spit()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(5f);
+        
         Boss.ChangeStateKey(States.Spit);
     }
 }

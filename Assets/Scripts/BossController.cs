@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BossController : MonoBehaviour
 {
-    [SerializeField] private GameObject ToxicArea;
+    [SerializeField] private GameObject spit;
     [SerializeField] private PlayerController Player;
 
     public float currentHealth;
@@ -62,8 +62,14 @@ public class BossController : MonoBehaviour
         currentState.Exit();
         currentState = newState;
         currentState.Entry();
-    }    
+    }
+
+    public GameObject GetSpit()
+    {
+        return spit;
+    }
 }
+
 
 public enum States
 {
